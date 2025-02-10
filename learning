@@ -1,0 +1,2 @@
+git init ----> initialize the folder
+git status ---> get the status of which all files are modified and untracked
