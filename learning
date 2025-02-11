@@ -2,3 +2,6 @@ git init ----> initialize the folder
 git status ---> get the status of which all files are modified and untracked
 git add -A ---> for adding the modified or new file to staging area
 git commit -m 'message'
+git push ---> command  for adding local repository content to remote repositorygit remote 
+git remote add remote_name 'link' 
+git push remote_name master
