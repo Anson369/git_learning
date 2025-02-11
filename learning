@@ -6,4 +6,6 @@ git push ---> command  for adding local repository content to remote repositoryg
 git remote add remote_name 'link' 
 git push remote_name master
 git branch ---> command for listing all branches
-git checkout branchname ----> command for check out to a branch
+git checkout branchname ----> command for check out to a branchgit remote -v ---> to get the name of the remote file
+git clone ---->exact copy from remote repo
+git pull ----> remote repo changes
