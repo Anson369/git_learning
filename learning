@@ -1,11 +1,24 @@
-git init ----> initialize the folder
-git status ---> get the status of which all files are modified and untracked
-git add -A ---> for adding the modified or new file to staging area
-git commit -m 'message'
-git push ---> command  for adding local repository content to remote repositorygit remote 
-git remote add remote_name 'link' 
+10th February
+-------------
+
+GIT
+---
+git add -A ----> adding all changes from the local working directory to staging area
+git commit -m "commit message" ---> to save the changes in the staging area to local repository
+git config --global user.name 'username' --->to add username
+git config --global user.email 'email' --->to add gmail
+git config --list ---->command for listing configuration
+git init ----> command for initializing the folder
+git status -----> get the status of which all files are modified and created
+git log -----> to get the whole history of changes added by the user
+
+
+11th February
+-------------
+
+git push---->command for adding local repository content to remote
+git remote add remote_name 'link' -- adding the folder from remote repo to local repo
 git push remote_name master
-git branch ---> command for listing all branches
-git checkout branchname ----> command for check out to a branchgit remote -v ---> to get the name of the remote file
+git remote -v ---> to get the name of the remote file
 git clone ---->exact copy from remote repo
 git pull ----> remote repo changes
