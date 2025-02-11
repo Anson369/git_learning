@@ -5,3 +5,5 @@ git commit -m 'message'
 git push ---> command  for adding local repository content to remote repositorygit remote 
 git remote add remote_name 'link' 
 git push remote_name master
+git branch ---> command for listing all branches
+git checkout branchname ----> command for check out to a branch
